@@ -1,7 +1,11 @@
 package main
 
-import "github.com/xenon-92/go-concurrency/usingSleep"
+import (
+	_ "github.com/xenon-92/go-concurrency/usingSleep"
+	"github.com/xenon-92/go-concurrency/usingWaitGroup"
+)
 
 func main() {
-	usingSleep.RunMain()
+	// usingSleep.RunMain()
+	usingWaitGroup.RunMain()
 }
