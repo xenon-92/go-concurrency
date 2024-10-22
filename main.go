@@ -1,8 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/xenon-92/go-concurrency/usingSleep"
 
 func main() {
-	defer fmt.Println("world")
-	fmt.Println("hello")
+	usingSleep.RunMain()
 }
