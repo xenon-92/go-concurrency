@@ -1,5 +1,6 @@
 package usingWaitGroup
 
 func RunMain() {
-	wg0()
+	// wg0()
+	ChallengeMain()
 }

@@ -30,6 +30,7 @@ func wg0() {
 }
 
 func displaySomething(s string, wg *sync.WaitGroup) {
-	defer wg.Done()
+	defer wg.Done() // exactly same as wg.Add(-1)
+
 	fmt.Println(s)
 }
